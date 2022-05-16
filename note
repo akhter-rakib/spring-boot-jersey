@@ -1,0 +1,7 @@
+-- In Jersey there is not dispatcher servlet so we need to config the restService by extend ResourceConfig
+   and register the resources class.
+--
+    @POST                          == request mapping
+    @Path("/saveEmployee")         == request end point
+    @Consumes("application/json")  == link : https://www.dineshonjava.com/using-consumes-and-produces-to/
+    @Produces("application/json")  == link : https://www.dineshonjava.com/using-consumes-and-produces-to/
